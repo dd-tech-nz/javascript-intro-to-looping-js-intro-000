@@ -21,8 +21,9 @@ function doWhileLoop(num) {
 }
 
 function incrementVariable() {
+  console.log("I run once regardless.")
   let i = 0;
   i = i + 1;
   return i;
-  console.log("I run once regardless.")
+  
 }
